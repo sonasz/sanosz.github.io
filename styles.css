@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    padding: 10px;
+    background-color:pink;
+    color: black
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    color: black;
+    background-color: gainsboro;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sabit-ölçütlerde{width: 60px;
+    height: autos;
+}
+
+.orantisiz-boyutlandirma {
+    width: 600px; 
+    height: auto; 
+}
+
+
+.orantili-boyutlandirma {
+    width: 200px;
+    height: auto;
+}
+
+
+
+.image-sizing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+.image-sizing-table th, .image-sizing-table td {
+    border: 3px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.image-sizing-table th {
+    background-color: #f2f2f2;
+}
+
+
+.image-sizing-table img {
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
